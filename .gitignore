@@ -1,0 +1,44 @@
+# Por defecto, todo es local: planificación, PDF, materiales y presentaciones.
+*
+
+# Archivos básicos públicos.
+!/.gitignore
+!/README.md
+
+# Fuentes y configuración del diseño, solo en estas carpetas.
+!/componentes/
+!/componentes/**/
+!/componentes/**/*.vhd
+!/componentes/**/*.vhdl
+!/componentes/**/*.bdf
+!/componentes/**/*.bsf
+!/componentes/**/*.qpf
+!/componentes/**/*.qsf
+!/componentes/**/*.sdc
+!/opcionales/
+!/opcionales/**/
+!/opcionales/**/*.vhd
+!/opcionales/**/*.vhdl
+!/opcionales/**/*.bdf
+!/opcionales/**/*.bsf
+!/opcionales/**/*.qpf
+!/opcionales/**/*.qsf
+!/opcionales/**/*.sdc
+!/integracion/
+!/integracion/**/
+!/integracion/**/*.vhd
+!/integracion/**/*.vhdl
+!/integracion/**/*.bdf
+!/integracion/**/*.bsf
+!/integracion/**/*.qpf
+!/integracion/**/*.qsf
+!/integracion/**/*.sdc
+
+# Resultados y fuentes generadas: permanecen locales.
+**/db/
+**/incremental_db/
+**/output_files/
+**/simulation/
+**/greybox_tmp/
+**/ip_generated/
+**/.qsys_edit/
